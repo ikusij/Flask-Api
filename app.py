@@ -56,7 +56,7 @@ def get_recipe_by_filters():
 
 # POST METHODS
 
-@app.route("/recipes/", methods = ['POST'])
+@app.route("/recipes", methods = ['POST'])
 def post_recipe():
 
     """Posts passed recipe JSON object into database"""
